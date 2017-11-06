@@ -1,0 +1,79 @@
+$baseSize: 0px;
+$stantardPTPB: 0px;
+$stantardFF: 'cwTeXHei', sans-serif;
+$stantardFC : white;
+$BGCTop: white;
+$BGCAbout: #8f92a4;
+$BGCLecturer: white;
+$BGCActivity: blue;
+$BGCTeam: white;
+$BGCImformation: blue;
+
+body,html {
+  padding: 0;
+  margin: 0;
+}
+
+// *{
+//   position: relative;
+// }
+
+.HomeContainer {
+  display: block;
+}
+
+.TopContainer {
+  height: 50px;
+  padding: $stantardPTPB 0 $stantardPTPB 0;
+}
+
+.AboutContainer {
+  height: 250px;
+  padding: $stantardPTPB 0 $stantardPTPB 0;
+  position: relative;
+  // overflow: hidden;
+  // z-index: 1;
+  // background-color: $BGCAbout;
+  .upSkew {
+    z-index: -1;
+    // display: block;
+    position: absolute; 
+    // top: 50px;
+    transform: skewY(10.5deg);
+    transform-origin: left;
+    height: 200px;
+    width: 100%;
+    background-color: $BGCAbout;
+  }
+  .downSkew {
+    z-index: -1;
+    // display: block;
+    position: absolute; 
+    // top: 100px;
+    transform: skewY(-14.5deg);
+    transform-origin: right;
+    height: 150px;
+    width: 100%;
+    background-color: $BGCAbout;
+  }
+}
+
+.LecturerContainer {
+  height: 50px;
+  padding: $stantardPTPB 0 $stantardPTPB 0;
+}
+
+.ActivitiesContainer {
+  height: 50px;
+  padding: $stantardPTPB 0 $stantardPTPB 0;
+}
+
+.TeamContainer {
+  height: 50px;
+  padding: $stantardPTPB 0 $stantardPTPB 0;
+}
+
+.ImformationContainer {
+  height: 50px;
+  padding: $stantardPTPB 0 $stantardPTPB 0;
+}
