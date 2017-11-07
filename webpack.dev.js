@@ -59,9 +59,6 @@ module.exports = {
           },
           {
             loader: 'eslint-loader',
-            options: {
-              extends: 'airbnb',
-            },
           },
         ],
       },
