@@ -28,11 +28,8 @@ class Lectuter extends Component {
       }
     );
 		return (
-      <div>
-        <div className='LecturerContainer'>
-          {this.props.lecturerArray[0].name}
-        </div>
-        <img src={Logo} height='256' width='256'/>
+      <div className='LecturerContainer'>
+        Lecturer
       </div>
 		);
 	}

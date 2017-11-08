@@ -22,13 +22,18 @@ body,html {
   display: block;
 }
 
+.NavbarContainer {
+  height: 500px;
+  padding: $stantardPTPB 0 $stantardPTPB 0;
+}
+
 .TopContainer {
-  height: 50px;
+  height: 500px;
   padding: $stantardPTPB 0 $stantardPTPB 0;
 }
 
 .AboutContainer {
-  height: 250px;
+  height: 500px;
   padding: $stantardPTPB 0 $stantardPTPB 0;
   position: relative;
   // overflow: hidden;
@@ -59,21 +64,21 @@ body,html {
 }
 
 .LecturerContainer {
-  height: 50px;
+  height: 500px;
   padding: $stantardPTPB 0 $stantardPTPB 0;
 }
 
 .ActivitiesContainer {
-  height: 50px;
+  height: 500px;
   padding: $stantardPTPB 0 $stantardPTPB 0;
 }
 
 .TeamContainer {
-  height: 50px;
+  height: 500px;
   padding: $stantardPTPB 0 $stantardPTPB 0;
 }
 
 .ImformationContainer {
-  height: 50px;
+  height: 500px;
   padding: $stantardPTPB 0 $stantardPTPB 0;
 }
