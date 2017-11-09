@@ -1,6 +1,6 @@
 const webpack = require('webpack');
 const HtmlwebpackPlugin = require('html-webpack-plugin');
-// const ExtractTextPlugin = require("extract-text-webpack-plugin");
+const CleanWebpackPlugin = require('clean-webpack-plugin');
 
 const path = require('path');
 
@@ -133,6 +133,7 @@ module.exports = {
     HTMLWebpackPluginConfig,
     WebPackPlugin,
     new webpack.HotModuleReplacementPlugin(),
+    new CleanWebpackPlugin(['dist'])
   ],
   devServer: {
     historyApiFallback: true,

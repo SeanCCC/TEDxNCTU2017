@@ -2,6 +2,7 @@ const webpack = require('webpack');
 const HtmlwebpackPlugin = require('html-webpack-plugin');
 const ExtractTextPlugin = require("extract-text-webpack-plugin");
 const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
+const CleanWebpackPlugin = require('clean-webpack-plugin');
 const path = require('path');
 const CURRENT_PATH = path.resolve(__dirname); // 獲取到當前目錄
 const ROOT_PATH = __dirname; // 項目根目錄
@@ -30,7 +31,7 @@ module.exports = {
   ],
   output: {
     path: BUILD_PATH, // 設置輸出目錄
-    filename: 'statics/[name].bundle.js', // 輸出文件名
+    filename: 'statics/[name].[chunkhash].js', // 輸出文件名
     publicPath: '/'
   },
   resolve: {
