@@ -1,0 +1,53 @@
+body, html {
+  padding: 0;
+  margin: 0; }
+
+.HomeContainer {
+  display: block; }
+
+.NavbarContainer {
+  height: 500px;
+  padding: 0px 0 0px 0; }
+
+.TopContainer {
+  height: 500px;
+  padding: 0px 0 0px 0; }
+
+.AboutContainer {
+  height: 500px;
+  padding: 0px 0 0px 0;
+  position: relative; }
+  .AboutContainer .upSkew {
+    z-index: -1;
+    position: absolute;
+    transform: skewY(10.5deg);
+    transform-origin: left;
+    height: 200px;
+    width: 100%;
+    background-color: #8f92a4; }
+  .AboutContainer .downSkew {
+    z-index: -1;
+    position: absolute;
+    transform: skewY(-14.5deg);
+    transform-origin: right;
+    height: 150px;
+    width: 100%;
+    background-color: #8f92a4; }
+
+.LecturerContainer {
+  height: 500px;
+  padding: 0px 0 0px 0; }
+
+.ActivitiesContainer {
+  height: 500px;
+  padding: 0px 0 0px 0; }
+
+.TeamContainer {
+  height: 500px;
+  padding: 0px 0 0px 0; }
+
+.ImformationContainer {
+  height: 500px;
+  padding: 0px 0 0px 0; }
+
+/*# sourceMappingURL=main-three.css.map*/

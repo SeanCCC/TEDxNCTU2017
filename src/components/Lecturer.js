@@ -30,6 +30,7 @@ class Lectuter extends Component {
 		return (
       <div className='LecturerContainer'>
         Lecturer
+        <img src={Logo}/>
       </div>
 		);
 	}
